@@ -1,0 +1,198 @@
+* {
+    font-family: 'sans-serif';
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    list-style: none;
+  }
+  
+  button {
+    background: rgba(56, 56, 56, 0.127);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  
+  body {
+    padding-bottom: 90px;
+    transition: ease-in-out 3s;
+    background-image: url(https://images.hdqwalls.com/download/sea-waves-long-sleeves-girl-5k-u0-1366x768.jpg);
+    background-color: #312fc0;
+    /*caso a url nao carregar deixei azul*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #titulo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  #titulo a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  #navegacao {
+    background: rgba(202, 99, 14, 0.3);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    width: 100%;
+    height: 60px;
+    display: flex;
+    z-index: 10;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: light 300;
+  }
+  
+  #navegacao div {
+    margin: 0px 80px;
+  }
+  
+  #navegacao-items {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  #navegacao-items ul, li, a {
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+  }
+  
+  #navegacao-items ul li a {
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  #navegacao-items ul li a:hover {
+    background-color: white;
+    transition: .3s ease-in;
+    color: black;
+  }
+  
+  #navegacao-items ul li a i:hover {
+    color: black;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin: 80px 0px 0px;
+    align-items: center;
+    background: rgba(0, 0, 0, .15);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+  }
+  
+  #salutations{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 450px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 20px 0px;
+  }
+  
+  #city-info {
+    flex-direction: column;
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .city-name {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name {
+    text-align: center;
+  }
+  
+  .date {
+    font-size: 1rem;
+  }
+  
+  .city-weather {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 450px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .city-weather p {
+    align-items: center;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .weather-icon img {
+    margin: -20px;
+    width: 100px;
+  }
+  
+  .city-temperature {
+    font-size: 5rem;
+  }
+  
+  #saved-weathers {
+    align-items: center;
+    margin: 30px 0px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #salvar-title {
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 20px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+  }
+  
+  hr {
+    width: 100%;
+    border: .1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  
+  
