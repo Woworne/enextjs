@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="./static/img/cloud.png" type="image/x-icon">
+  <title>Clima e Tempo</title>
+</head
+<body id="cor">
+
+  <nav id="navegacao">
+    <div id="titulo">
+      <a>
+        Clima e Tempo
+      </a>
+    </div>
+  </nav>
+
+  <div class="content">
+    <header id="salutations">
+      <p>
+        Tempo agora em:
+      </p>
+      <p>
+        <button id="salvad" aria-label="Salvar">
+          <box-icon name='save' animation="tada-hover" color="white" style="cursor:pointer;"></box-icon>
+        </button>
+        <button id="refresh-btn" aria-label="Recarregar">
+          <box-icon name='refresh' animation="tada-hover" color="white" style="cursor:pointer;"></box-icon>
+        </button>
+      </p>
+    </header>
+    <div id="ciidade-informacao">
+      <div class="city-name">
+        <p class="name" id="name"></p>
+        <p class="date" id="date"></p>
+      </div>
+      <div class="city-weather" id="city-weather">
+        <div>
+          <p class="weather-icon" id="weather-icon"></p>
+          <p class="weather" id="weather"></p>
+        </div>
+        <div class="city-temperature" id="city-temperature">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content" id="saved-weathers">
+    <div id="salvar-title">
+      <p>Histórico</p>
+      <p>
+        <button id="clear-history-btn" aria-label="Limpar histórico">
+          <box-icon name='trash' animation="tada-hover" color="white" style="cursor:pointer;">
+          </box-icon>
+        </button>
+      </p>
+    </div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
